@@ -16,4 +16,8 @@ class Author < ApplicationRecord
   def get_book
     eval("puts 'test'")
   end
+
+  def test
+    age/0
+  end
 end
