@@ -20,4 +20,32 @@ class Author < ApplicationRecord
   def test
     age/0
   end
+
+  def long_method
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+    eval("puts 'test'")
+  end
 end
+
+
+
+
