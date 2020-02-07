@@ -8,4 +8,12 @@ class Author < ApplicationRecord
   def get_book
     puts 'get'
   end
+
+  def get_book
+    puts 'get'
+  end
+
+  def get_book
+    eval("puts 'test'")
+  end
 end
